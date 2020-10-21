@@ -11,8 +11,7 @@ const Form = () => {
             <Container>
                 <Title title="Formulário de contato" />
                 <Fade bottom duration={1000} delay={800} distance="30px">
-                    <form name="Contato" className="form-wrapper" data-netlify="true">
-
+                    <form name="Contato" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                         <p>
                             <label>Seu Nome: <input type="text" name="nome" /></label>
                         </p>
@@ -30,6 +29,9 @@ const Form = () => {
                         </p>
                         <p>
                             <label>Mensagem: <textarea name="message"></textarea></label>
+                        </p>
+                        <p class="hidden">
+                            <label>Não preenxa se voce for humano 🤖: <input name="bot-field" /></label>
                         </p>
                         <p>
                             <button type="submit">Enviar</button>
