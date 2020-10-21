@@ -11,7 +11,7 @@ const Form = () => {
             <Container>
                 <Title title="Formulário de contato" />
                 <Fade bottom duration={1000} delay={800} distance="30px">
-                    <form className="form-wrapper" data-netlify="true">
+                    <form name="Contato" className="form-wrapper" data-netlify="true">
 
                         <p>
                             <label>Seu Nome: <input type="text" name="nome" /></label>
