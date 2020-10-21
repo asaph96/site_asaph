@@ -7,7 +7,7 @@ const Form = () => {
     <section id="form">
       <Container>
         <Title title="Formulário de contato" />
-        <form name="Contato" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <form name="Contato" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/obrigado">
           <input type="hidden" name="form-name" value="Contato" />
           <div>
             <label>
@@ -21,11 +21,16 @@ const Form = () => {
           </div>
           <div>
             <label>
+              Seu Telefone: <input type="telefone" name="telefone" />
+            </label>
+          </div>
+          <div>
+            <label>
               Motivo de contato:
               <select name="motivo">
-                <option value="1">Colaboração</option>
-                <option value="2">Networking</option>
-                <option value="3">Outro</option>
+                <option value="Colaboração">Colaboração</option>
+                <option value="Networking">Networking</option>
+                <option value="Outro">Outro</option>
               </select>
             </label>
           </div>
@@ -42,13 +47,9 @@ const Form = () => {
             </p>
           </div>
           <div>
-            <button type="submit">Enviar</button>
+            <button type="submit" className="cta-btn cta-btn--hero">Enviar</button>
           </div>
         </form>
-        <br/><br/><br/>
-        <a target="_self" rel="noopener noreferrer" className="cta-btn cta-btn--hero" href="/">
-          Voltar
-        </a>
       </Container>
     </section>
   );
