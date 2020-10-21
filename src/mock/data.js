@@ -33,7 +33,7 @@ export const projectsData = [
     info: 'Laboratório de Expressão Gênica em Eucariotos [02/2018 - 07/2018]',
     info2: 'Trabalhei como estagiário em diversos experimentos envolvendo o parasito <i>Schistosoma mansoni</i>, auxiliando a equipe técnica a desenvolver suas pesquisas com manutenção de meios de cultura, extração de vermes para execução de novos experimentos, bem como em pesquisas de bioinformática e quimioinformática usando de ferramentas como <a href="https://www.megasoftware.net/">MEGA</a> para alinhamento de sequências de proteínas e o software de ancoragem molecular <a href="https://www.ccdc.cam.ac.uk/solutions/csd-discovery/components/gold/">GOLD</a>.',
     url: 'http://verjolab.usp.br/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,7 +42,7 @@ export const projectsData = [
     info: 'Softbox|Luizalabs [02/2019 - Atualmente]',
     info2: 'Trabalho dando atendimento e suporte aos clientes da <a href="https://www.magazineluiza.com.br/">Magalu</a>, monitorando seus serviços, servidores e indicadores estratégicos da empresa usando as ferramentas <a href="https://grafana.com/">Grafana</a> e <a href="https://checkmk.com/"/>Check-MK</a>. Desenvolvo scripts para monitorias e automação de rotinas utilizando as linguagens <a href="https://www.python.org/">Pyhton</a> e <a href="https://www.gnu.org/software/bash/">Shell Script</a>.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   }
 ];
 

@@ -40,11 +40,25 @@
   padding: 10px;
   label {
     font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
     box-sizing: border-box;
     width: auto;
     margin: auto 0;
     padding: 10px;
     color: $dark-blue-text;
     border-radius: 10px;
+  }
+  button {
+    background-color: $primary-color;
+    border: none;
+    color: $dark-blue-text;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+  button:hover {
+    background-color: $secondary-color;
   }
 }

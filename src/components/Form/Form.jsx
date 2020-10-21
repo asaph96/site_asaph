@@ -8,17 +8,18 @@ const Form = () => {
       <Container>
         <Title title="Formulário de contato" />
         <form name="Contato" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-          <p>
+          <input type="hidden" name="form-name" value="Contato" />
+          <div>
             <label>
               Seu Nome: <input type="text" name="nome" />
             </label>
-          </p>
-          <p>
+          </div>
+          <div>
             <label>
               Seu Email: <input type="email" name="email" />
             </label>
-          </p>
-          <p>
+          </div>
+          <div>
             <label>
               Motivo de contato:
               <select name="motivo">
@@ -27,21 +28,24 @@ const Form = () => {
                 <option value="3">Outro</option>
               </select>
             </label>
-          </p>
-          <p>
+          </div>
+          <div>
             <label>
               Mensagem: <textarea name="message"></textarea>
             </label>
-          </p>
-          <p class="hidden">
-            <label>
-              Não preencha se for humano 🤖: <input name="bot-field" />
-            </label>
-          </p>
-          <p>
+          </div>
+          <div>
+            <p class="hidden">
+              <label>
+                Não preencha se for humano 🤖: <input name="bot-field" />
+              </label>
+            </p>
+          </div>
+          <div>
             <button type="submit">Enviar</button>
-          </p>
+          </div>
         </form>
+        <br/><br/><br/>
         <a target="_self" rel="noopener noreferrer" className="cta-btn cta-btn--hero" href="/">
           Voltar
         </a>
