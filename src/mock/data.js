@@ -76,6 +76,11 @@ export const footerData = {
       name: 'github',
       url: 'https://github.com/asaph96',
     },
+    {
+      id: nanoid(),
+      name: 'envelope',
+      url: 'contato@asaph.dev.br',
+    },
   ],
 };
 
