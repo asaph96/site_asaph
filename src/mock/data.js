@@ -79,7 +79,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'envelope',
-      url: 'contato@asaph.dev.br',
+      url: 'mailto:contato@asaph.dev.br',
     },
   ],
 };
