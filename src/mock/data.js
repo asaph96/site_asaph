@@ -40,7 +40,7 @@ export const projectsData = [
     img: 'softbox-luizalabs.jpeg',
     title: 'Assistente de Infraestrutura',
     info: 'Softbox|Luizalabs [02/2019 - Atualmente]',
-    info2: 'Trabalho dando atendimento e suporte aos clientes da <a href="https://www.magazineluiza.com.br/">Magalu</a>, monitorando seus serviços, servidores e indicadores estratégicos da empresa usando as ferramentas <a href="https://grafana.com/">Grafana</a> e <a href="https://checkmk.com/"/>Check-MK</a>. Desenvolvo scripts para monitorias e automação de rotinas utilizando as linguagens <a href="https://www.python.org/">Pyhton</a> e <a href="https://www.gnu.org/software/bash/">Shell Script</a>.',
+    info2: 'Trabalho dando atendimento e suporte aos clientes da <a href="https://www.magazineluiza.com.br/">Magalu</a>, monitorando seus serviços, servidores e indicadores estratégicos da empresa usando as ferramentas <a href="https://grafana.com/">Grafana</a> e <a href="https://checkmk.com/"/>Check-MK</a>. Desenvolvo scripts para monitorias e automação de rotinas utilizando as linguagens <a href="https://www.python.org/">Python</a> e <a href="https://www.gnu.org/software/bash/">Shell Script</a>.',
     url: '',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   }
