@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Asaph | Biotecnologista', // e.g: 'Name | Developer'
-  lang: 'pt-br', // e.g: en, es, fr, jp
+  lang: 'pt-BR', // e.g: en, es, fr, jp
   description: 'Site portifólio', // e.g: Welcome to my website
 };
 
@@ -32,16 +32,25 @@ export const projectsData = [
     title: 'Instituto Butantan',
     info: 'Laboratório de Expressão Gênica em Eucariotos [02/2018 - 07/2018]',
     info2: 'Trabalhei como estagiário em diversos experimentos envolvendo o parasito <i>Schistosoma mansoni</i>, auxiliando a equipe técnica a desenvolver suas pesquisas com manutenção de meios de cultura, extração de vermes para execução de novos experimentos, bem como em pesquisas de bioinformática e quimioinformática usando de ferramentas como <a href="https://www.megasoftware.net/">MEGA</a> para alinhamento de sequências de proteínas e o software de ancoragem molecular <a href="https://www.ccdc.cam.ac.uk/solutions/csd-discovery/components/gold/">GOLD</a>.',
-    url: 'http://verjolab.usp.br/',
+    url: 'http://verjolab.usp.br/'
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'softbox-luizalabs.jpeg',
     title: 'Assistente de Infraestrutura',
-    info: 'Softbox|Luizalabs [02/2019 - Atualmente]',
-    info2: 'Trabalho dando atendimento e suporte aos clientes da <a href="https://www.magazineluiza.com.br/">Magalu</a>, monitorando seus serviços, servidores e indicadores estratégicos da empresa usando as ferramentas <a href="https://grafana.com/">Grafana</a> e <a href="https://checkmk.com/"/>Check-MK</a>. Desenvolvo scripts para monitorias e automação de rotinas utilizando as linguagens <a href="https://www.python.org/">Python</a> e <a href="https://www.gnu.org/software/bash/">Shell Script</a>.',
-    url: '',
+    info: 'Softbox|Luizalabs [02/2019 - 01/2021]',
+    info2: 'Trabalhei dando atendimento e suporte aos clientes da <a href="https://www.magazineluiza.com.br/">Magalu</a>, monitorando seus serviços, servidores e indicadores estratégicos da empresa usando as ferramentas <a href="https://grafana.com/">Grafana</a> e <a href="https://checkmk.com/"/>Check-MK</a>. Desenvolvi scripts para monitorias e automação de rotinas utilizando as linguagens <a href="https://www.python.org/">Python</a> e <a href="https://www.gnu.org/software/bash/">Shell Script</a>.',
+    url: 'http://luizalabs.com/'
+    // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'labs.jpg',
+    title: 'Desenvolvedor de Automação Jr.',
+    info: 'Softbox|Luizalabs [01/2021 - Atualmente]',
+    info2: 'Desenvolvo casos de teste e suas automações usando a linguagem <a href="https://www.javascript.com/">JavaScript</a> e as ferramentas <a href="https://www.postman.com/">Postman</a> e <a href="https://www.cypress.io/">Cypress</a> respectivamente.',
+    url: 'http://luizalabs.com/'
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   }
 ];
